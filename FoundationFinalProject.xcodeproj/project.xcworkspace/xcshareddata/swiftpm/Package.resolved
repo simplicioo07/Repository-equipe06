@@ -1,0 +1,24 @@
+{
+  "originHash" : "5b7bb46eaf9b03b54756555fe96e96493ace3de387b61192008db13f1aeab153",
+  "pins" : [
+    {
+      "identity" : "swift-notion",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mateusrodriguesxyz/swift-notion",
+      "state" : {
+        "branch" : "main",
+        "revision" : "82fc37a8c048655589e2683221411efada3406c1"
+      }
+    },
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftlang/swift-syntax.git",
+      "state" : {
+        "revision" : "050f1a346fbbac0ca2cfb15a95274f7bd1cf0ccf",
+        "version" : "604.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
