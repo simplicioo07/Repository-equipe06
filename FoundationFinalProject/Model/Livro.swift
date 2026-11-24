@@ -5,10 +5,10 @@ import SwiftUI
 
 @NotionPage("")
 struct NotionLivro: Identifiable {
-    @NotionTitle("Nome") var name: String
+    @NotionTitleProperty("Nome") var name: String
     @NotionProperty("Autor") var autor: String
     @NotionProperty("Capa") var capa: URL?
-    @NotionProperty("Genero") var genero: Genero?
+    @NotionProperty("Genero") var genero: [Genero]?
     @NotionProperty("Sinopse") var sinopse: String
     @NotionProperty("Paginas") var pags: Int?
     @NotionProperty("Classificação") var classif: Int?

@@ -17,7 +17,6 @@ struct ContentView: View {
             let client = NotionClient(
                 bearerToken: bearerToken
             )
-            
         }
     }
 }
