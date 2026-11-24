@@ -42,3 +42,12 @@ enum Genero: String {
     case Distopia
     case Infantojuvenil
 }
+
+enum Classificacao: Int {
+    case livre
+    case ten = 10
+    case twelve = 12
+    case fourteen = 14
+    case sixteen = 16
+    case eighteen = 18
+}
